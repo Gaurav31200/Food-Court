@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     sendRequest(
       {
-        url: "https://react-http-4b354-default-rtdb.firebaseio.com/cart.json",
+        url: "https://food-order-app-4f453-default-rtdb.firebaseio.com/cart.json",
         headers: { "Content-Type": "application/json" },
       },
       (data) => {
@@ -40,7 +40,7 @@ function App() {
     if (cart.changed) {
       sendRequest(
         {
-          url: "https://react-http-4b354-default-rtdb.firebaseio.com/cart.json",
+          url: "https://food-order-app-4f453-default-rtdb.firebaseio.com/cart.json",
           method: "PUT",
           body: {
             selectedItems: cart.selectedItems,

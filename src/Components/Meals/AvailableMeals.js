@@ -25,7 +25,7 @@ export default function AvailableMeals() {
     };
     fetchMeals(
       {
-        url: "https://react-http-4b354-default-rtdb.firebaseio.com/meals.json",
+        url: "https://food-order-app-4f453-default-rtdb.firebaseio.com/meals.json",
       },
       transformMeals
     );
