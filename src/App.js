@@ -20,7 +20,6 @@ function App() {
         headers: { "Content-Type": "application/json" },
       },
       (data) => {
-        console.log(data);
         dispatch(
           cartActions.replaceCart({
             selectedItems: data.selectedItems || [],
