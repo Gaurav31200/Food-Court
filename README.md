@@ -1,2 +1,3 @@
-# KRASP_TRUST https://krasptrust.web.app/
-A basic dynamic bank management system, which contains four functional pages. Homepage where a user can select multiple options like to view all customers, to view transaction history and most importantly money transfer.
+FOOD ORDER APP - https://food-court-312.web.app/
+
+A single food order app build using REACTJS for frontend and FIREBASE for backend. An app where a customer select their favourite meals and order them by providing their address accordingly. 
