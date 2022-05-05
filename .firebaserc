@@ -1,7 +1,8 @@
 {
   "projects": {
-    "default": "food-order-app-4f453",
-    "food-order-app": "food-order-app-4f453"
+    "default": "food-court-312",
+    "food-order-app": "food-order-app-4f453",
+    "food-order": "food-court-312"
   },
   "targets": {}
 }

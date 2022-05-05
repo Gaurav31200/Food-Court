@@ -19,7 +19,7 @@ export default function Cart() {
   const addUserDetails = (userDetails) => {
     postMeals(
       {
-        url: "https://food-order-app-4f453-default-rtdb.firebaseio.com/orders.json",
+        url: "https://food-court-312-default-rtdb.firebaseio.com/orders.json",
         method: "POST",
         body: {
           user: userDetails,
